@@ -1,0 +1,38 @@
+Freescale Community BSP Documentation
+-------------------------------------
+
+The documentation is written using the Sphinx documentation system. To
+install it in Debian/Ubuntu, please do:
+
+  #: apt-get install python-sphinx python-pip texlive-latex-extra texlive-fonts-recommended
+  #: pip install sphinxcontrib-blockdiag
+
+Once this has been completed, you can run 'make' in each of the Documentation
+folders to review the available targets for building.
+
+
+Contributing
+------------
+
+To contribute to this repository you should submit the patches for
+review to the mailing list: meta-freescale@yoctoproject.org.
+
+Please refer to:
+http://openembedded.org/wiki/Commit_Patch_Message_Guidelines
+for useful guidelines to be followed when submitting patches.
+
+Mailing list:
+
+    https://lists.yoctoproject.org/listinfo/meta-freescale
+
+Source code:
+
+    https://github.com/Freescale/Documentation
+
+When creating patches, please use something like:
+
+    git format-patch -s --subject-prefix='Documentation][PATCH' origin
+
+When sending patches, please use something like:
+
+    git send-email --to meta-freescale@yoctoproject.org <generated patch>
